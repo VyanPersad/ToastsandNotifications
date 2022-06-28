@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         else
             toastDuration = Toast.LENGTH_LONG;
         // Get the custom layout and inflate it
-        //It seems that this layout works best (if at all) with a LinearLayout Constraint doesn't work
+        //It seems that this layout works best (if at all) with a LinearLayout, Constraint doesn't work
         LayoutInflater inflater = getLayoutInflater();
         View layout = inflater.inflate(R.layout.toast_layout, (ViewGroup)findViewById(R.id.customLayout));
         // Build a toast message that uses the custom layout
